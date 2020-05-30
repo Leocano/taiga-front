@@ -36,25 +36,25 @@ div.navbar-dropdown.dropdown-user
                 title="{{'PROJECT.NAVIGATION.CHANGE_PASSWORD_TITLE' | translate}}",
                 translate="PROJECT.NAVIGATION.CHANGE_PASSWORD")
 
-        li
-            a(
-                href="#",
-                tg-nav="user-settings-mail-notifications",
-                title="{{'PROJECT.NAVIGATION.NOTIFICATIONS_TITLE' | translate}}",
-                translate="PROJECT.NAVIGATION.NOTIFICATIONS")
+        //- li
+        //-     a(
+        //-         href="#",
+        //-         tg-nav="user-settings-mail-notifications",
+        //-         title="{{'PROJECT.NAVIGATION.NOTIFICATIONS_TITLE' | translate}}",
+        //-         translate="PROJECT.NAVIGATION.NOTIFICATIONS")
 
-        li(ng-show="vm.isFeedbackEnabled")
-            a(
-                href="#",
-                ng-click="vm.sendFeedback()",
-                title="{{'PROJECT.NAVIGATION.FEEDBACK_TITLE' | translate}}",
-                translate="PROJECT.NAVIGATION.FEEDBACK")
-        li(ng-if="vm.customSupportUrl")
-            a(
-                href="{{ vm.customSupportUrl }}",
-                target="_blank",
-                title="{{'PROJECT.NAVIGATION.HELP_TITLE' | translate}}",
-                translate="PROJECT.NAVIGATION.HELP")
+        //- li(ng-show="vm.isFeedbackEnabled")
+        //-     a(
+        //-         href="#",
+        //-         ng-click="vm.sendFeedback()",
+        //-         title="{{'PROJECT.NAVIGATION.FEEDBACK_TITLE' | translate}}",
+        //-         translate="PROJECT.NAVIGATION.FEEDBACK")
+        //- li(ng-if="vm.customSupportUrl")
+        //-     a(
+        //-         href="{{ vm.customSupportUrl }}",
+        //-         target="_blank",
+        //-         title="{{'PROJECT.NAVIGATION.HELP_TITLE' | translate}}",
+        //-         translate="PROJECT.NAVIGATION.HELP")
         li
             a(
                 href="#",
