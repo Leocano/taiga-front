@@ -14,7 +14,7 @@
         "UNLINK": "Separar",
         "CREATE": "Criar",
         "ADD": "Adicionar",
-        "BACK": "Back",
+        "BACK": "Voltar",
         "COPY_TO_CLIPBOARD": "Copiar para área de transferência",
         "COPIED_TO_CLIPBOARD": "O texto foi copiado para a área de transferência",
         "EDIT": "Editar",
@@ -950,7 +950,7 @@
             "INVITE": "Convidar para o projeto",
             "SOLO_PROJECT": "Você estará sozinho neste projeto",
             "INVITE_LATER": "(Você poderá convidar mais membros depois)",
-            "BACK": "Back",
+            "BACK": "Voltar",
             "MAX_PRIVATE_PROJECTS": "Infelizmente, você atingiu o número máximo de projetos privados. Se você quiser aumentar o limite atual, entre em contato com o administrador.",
             "MAX_PUBLIC_PROJECTS": "Infelizmente, você atingiu o número máximo de projetos públicos.\nSe você quiser aumentar o limite atual, entre em contato com o administrador.",
             "PUBLIC_PROJECT": "Projeto Público",
@@ -994,7 +994,7 @@
             "PROJECT_SELECTOR": {
                 "NO_RESULTS": "Parece que nada foi encontrado com os critérios de sua pesquisa.",
                 "ACTION_SEARCH": "procurar",
-                "ACTION_BACK": "Back"
+                "ACTION_BACK": "Voltar"
             },
             "PROJECT_RESTRICTIONS": {
                 "PROJECT_MEMBERS_DESC_PRIVATE": "The project you are trying to import has {{members}} members including you. Unfortunately, your current plan allows for a maximum of {{max_memberships}} members per private project. If you would like to increase that limit please contact the administrator.",
@@ -1758,7 +1758,7 @@
     "JOYRIDE": {
         "NAV": {
             "NEXT": "Próximo",
-            "BACK": "Back",
+            "BACK": "Voltar",
             "SKIP": "Pular",
             "DONE": "Terminado"
         },
